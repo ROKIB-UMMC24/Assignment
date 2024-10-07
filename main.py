@@ -38,6 +38,6 @@ while True:
         print("Invalid input! Please enter a valid number or 'q' to quit.")
 
     # For Quit The Game at Anytime
-    if guess_number.lower() == 'q':
-        print("Thank you for participating. Goodbye!")
-        break
+        if guess_number.lower() == 'q':
+            print("Thank you for participating. Goodbye!")
+            break
